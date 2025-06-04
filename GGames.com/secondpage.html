@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {margin: 0;}
+        
+        ul.topnav {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #5029093e;
+          border: 2px solid rgb(144, 79, 79);
+        }
+        
+        ul.topnav li {float: left;}
+        
+        ul.topnav li a {
+          display: block;
+          color: rgb(32, 10, 5);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        ul.topnav li a:hover:not(.active) {background-color: #a16666;}
+        
+        ul.topnav li a.active {background-color: #aa89044d;}
+        
+        ul.topnav li.right {float: right;}
+        
+        @media screen and (max-width: 600px) {
+          ul.topnav li.right, 
+          ul.topnav li {float: none;}
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+        </style>
+</head>
+<body>
+    <ul class="topnav">
+        <li><a class="active" href="secondpage.html">Home</a></li>
+        <li><a href="thirdpage.html">News</a></li>
+        <li><a href="fourthpage.html">Downloaded</a></li>
+        <li><a href="fifthpage.html">About</a></li>
+    </ul>
+    <h1 style="color: brown; text-align: center;">Welcome to GGames</h1>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="cr7.jpg">
+          <img src="cr7.jpg" alt="Cinque Terre" width="600" height="300">
+        </a>
+        <div class="desc">FreeFire_25</div>
+      </div>
+    </div>
+    
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="messi2.jpg">
+          <img src="messi2.jpg" alt="Forest" width="400" height="160">
+        </a>
+        <div class="desc"> Football_25 </div>
+      </div>
+    </div>
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="cr7 2.jpg">
+          <img src="cr7 2.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="spiderman.jpg">
+          <img src="spiderman.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+</body>
+</html>

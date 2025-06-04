@@ -1,0 +1,32 @@
+.first {
+    background-color: rgba(143, 214, 185, 0.272);
+    color: rgb(122, 101, 45);
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-left-style: solid;
+    margin: 20px;
+    padding: 20px;
+}
+
+#third_p {
+    background-color: rgba(207, 33, 33, 0.325);
+    color: rgb(69, 11, 11);
+    border: 2px solid rgb(10, 119, 10);
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.form {
+    background-image: url("messi3.jpg");
+    background-repeat: no-repeat;
+    color: rgb(27, 26, 122);
+    background-attachment: scroll;
+    border: 2px solid rgb(211, 102, 29);
+    text-align: center;
+    margin: 20px;
+    padding: 25px 200px 25px 600px;   
+}
+
+body {
+    background-color: rgb(250, 235, 215);
+}

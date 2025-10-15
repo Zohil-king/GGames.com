@@ -1,5 +1,5 @@
 .first {
-    background-color: rgba(143, 213, 185, 0.272);
+    background-color: rgba(144, 213, 185, 0.272);
     color: rgb(122, 101, 45);
     font-family: "Lucida Console", "Courier New", monospace;
     border-left-style: solid;
@@ -31,3 +31,4 @@ body {
     background-color: rgb(250, 235, 215);
 
 }
+
